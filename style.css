@@ -1,0 +1,27 @@
+/* ... Keep previous :root and body styles ... */
+
+.calc-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+    padding-left: 4px;
+}
+
+.calc-header .title {
+    color: var(--text-main);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.calc-header .badge {
+    font-size: 0.7rem;
+    color: var(--accent-purple);
+    border: 1px solid rgba(188, 140, 255, 0.4);
+    padding: 1px 6px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* ... Rest of the previous CSS ... */
